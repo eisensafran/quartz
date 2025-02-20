@@ -1,5 +1,5 @@
 ---
-title: "# Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit"
+title: "Überblick: Das Kunstwerk im Zeitalter seiner technischen Reproduzierbarkeit"
 draft: false
 tags:
   - 
