@@ -5,3 +5,53 @@
     width: 70vw;
     height: 90vh;
 }
+
+#explorer-content {
+    list-style: none;
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: 0px;
+    transition:
+      max-height 0.35s ease,
+      visibility 0s linear 0.35s;
+    margin-top: 0.5rem;
+    visibility: hidden;
+  
+    &.collapsed {
+      max-height: 100%;
+      transition:
+        max-height 0.35s ease,
+        visibility 0s linear 0s;
+      visibility: visible;
+    }
+  
+    & ul {
+      list-style: none;
+      margin: 0.4rem 0;
+      padding: 0;
+      transition:
+        max-height 0.35s ease,
+        transform 0.35s ease,
+        opacity 0.2s ease;
+
+    & li {
+        padding-bottom: 15px;
+        line-height:1.3;
+        
+        
+        }
+
+  
+      & li > a {
+        
+        color: var(--dark);
+        opacity: 0.75;
+        pointer-events: all;
+        font-weight:normal;
+
+        
+        
+        
+      }
+    }
+}

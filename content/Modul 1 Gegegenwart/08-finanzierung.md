@@ -1,5 +1,5 @@
 ---
-title: Was ist gut? – Ethos
+title: Woher kommt das Geld? – Finanzierung
 draft: false
 tags:
   - modul1

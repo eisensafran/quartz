@@ -9,7 +9,7 @@ tags:
 
 - Populäre und massenmediale Darstellungen, Stereotype: Natur- und Geisteswissenschaftler:innen im Vergleich, z.B. in Serien oder Filmen *The Big Bang Theory*, *The Chair*, *Merlí*, *Sapere Aude*, *Hulk*; in Romanen, z.B. *Frankenstein*; im Comic/Cartoon, z.B. *Department of Mind-Blowing Theories*
 - Medialisierung und Mediatisierung von Wissenschaft anhand aktueller Beispiele
-- Website: (https://celebrityscience.com/)[https://celebrityscience.com/] 
+- Website: [https://celebrityscience.com/](https://celebrityscience.com/)
 
 ## Literaturvorschläge
 - Fahy, D. (2015). The New Celebrity Scientists: Out of the Lab and into the Limelight. Nomos Verlagsgesellschaft mbH & Co. KG.
