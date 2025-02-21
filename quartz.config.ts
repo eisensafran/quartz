@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "github.com/eisensafran/quartz",
-    ignorePatterns: ["private", "templates", "img", ".obsidian", "obsidian_templates"],
+    ignorePatterns: ["private", "templates", ".obsidian", "obsidian_templates"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
