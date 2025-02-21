@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "github.com/eisensafran/quartz",
-    ignorePatterns: ["private", "templates", ".obsidian", "obsidian_templates"],
+    ignorePatterns: ["private", "templates", "img", ".obsidian", "obsidian_templates"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
@@ -57,9 +57,7 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
-      }),
+
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",

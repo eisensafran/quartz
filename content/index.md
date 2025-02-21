@@ -1,12 +1,12 @@
 ---
-title: "Wissen über Wissenschaft – ein Core Curriculum für Studierende aller Fächer"
+title: Wissen über Wissenschaft
 draft: false
 tags:
   - Projekt
 ---
 
 ![alt text](img/CC-teaser.jpg)
-# Wissen über Wissenschaft – ein Core Curriculum für Studierende aller Fächer
+# Ein Core Curriculum für Studierende aller Fächer
 
 Nicht nur durch die anhaltenden Krisen haben wir gelernt, wie ganz unterschiedliche Disziplinen in der Lage sein müssen, ihre Wissensbestände zu kontextualisieren und zu aktualisieren, um auf gesellschaftliche Nachfragen reagieren zu können. Und um das jeweils disziplinär gewachsene und geprägte Wissen auch proaktiv einbringen zu können.
 
