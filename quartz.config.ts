@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Core Curriculum",
+    pageTitle: "Core Curriculum",
     pageTitleSuffix: "For students of all disciplines",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: 'plausible'
+      
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "github.com/eisensafran/quartz",
     ignorePatterns: ["private", "templates", ".obsidian", "obsidian_templates"],
     defaultDateType: "created",
     generateSocialImages: false,
@@ -25,7 +25,7 @@ const config: QuartzConfig = {
       cdnCaching: false,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        body: "IBM Plex Sans",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -35,8 +35,8 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
+          secondary: "#d10202",
+          tertiary: "#a58484",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
         },

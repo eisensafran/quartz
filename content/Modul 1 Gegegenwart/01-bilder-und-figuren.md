@@ -2,8 +2,7 @@
 title: So und nicht anders? – Bilder und Figuren
 draft: false
 tags:
-- test
-- default
+  - modul1
 ---
 
 ## Inhalte und Material
