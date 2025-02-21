@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🪴 Core Curriculum",
     pageTitleSuffix: "For students of all disciplines",
     enableSPA: true,
     enablePopovers: true,
