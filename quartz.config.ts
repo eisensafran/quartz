@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Core Curriculum",
+    pageTitle: "RRC Core Curriculum",
     pageTitleSuffix: "For students of all disciplines",
     enableSPA: true,
     enablePopovers: true,
@@ -22,10 +22,10 @@ const config: QuartzConfig = {
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
-      cdnCaching: false,
+      cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "IBM Plex Sans",
+        header: "Archivo",
+        body: "IBM Plex Serif",
         code: "IBM Plex Mono",
       },
       colors: {

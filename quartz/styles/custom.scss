@@ -55,3 +55,13 @@
       }
     }
 }
+
+.page > #quartz-body .sidebar {
+    box-sizing: border-box;
+    gap: 2rem;
+    height: unset;
+    padding: 6rem 2rem 2rem;
+    display: flex;
+    position:unset;
+    top: 0;
+  }
