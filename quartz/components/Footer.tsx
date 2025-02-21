@@ -23,6 +23,9 @@ export default ((opts?: Options) => {
               <a href={link}>{text}</a>
             </li>
           ))}
+          <li>
+            <p>test</p>
+          </li>
         </ul>
       </footer>
     )
