@@ -1,8 +1,8 @@
 ---
-title: Auf welchen Bühnen? – Performanz von Forschung
+title: Auf welchen Bühnen?
 draft: false
 tags:
-
+  - modul1
 ---
 
 > [!info] Kursbeschreibung

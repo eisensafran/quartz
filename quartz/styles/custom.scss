@@ -65,3 +65,12 @@
     position:unset;
     top: 0;
   }
+
+blockquote {
+  font-family: var(--headerFont)
+}
+
+.callout {
+  font-family: var(--bodyFont)
+}
+

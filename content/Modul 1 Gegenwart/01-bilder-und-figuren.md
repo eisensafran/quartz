@@ -14,7 +14,7 @@ tags:
 ## Literaturvorschläge
 - Fahy, D. (2015). The New Celebrity Scientists: Out of the Lab and into the Limelight. Nomos Verlagsgesellschaft mbH & Co. KG.
 - Paulitz, T. & Meier-Arendt, D. (2023). Geschlechterforschung und Wissenschaftsforschung. In D. Kaldewey (Hrsg.), Wissenschaftsforschung (S. 55–74). De Gruyter Oldenbourg.
-- Scheu, A. M. & Volpers, A.-M. (2017). Sozial- und Geisteswissenschaften im öffentlichen Diskurs. In H. Bonfadelli, B. Fähnrich, C. Lüthje, J. Milde, M. Rhomberg & M. S. Schäfer (Hrsg.), Forschungsfeld Wissenschaftskommunikation (S. 391–404). Springer Fachmedien Wiesbaden
+- Scheu, A. M. & Volpers, A.-M. (2017). Sozial- und Geisteswissenschaften im öffentlichen Diskurs. In H. Bonfadelli, B. Fähnrich, C. Lüthje, J. Milde, M. Rhomberg & M. S. Schäfer (Hrsg.), Forschungsfeld Wissenschaftskommunikation (S. 391–404). Springer Fachmedien Wiesbaden.
 
 ## Mögliche Arbeitsaufträge
 

@@ -4,8 +4,8 @@ draft: false
 tags:
   - Projekt
 ---
-
 ![[CC-teaser.jpg]]
+
 # Ein Core Curriculum für Studierende aller Fächer
 
 Nicht nur durch die anhaltenden Krisen haben wir gelernt, wie ganz unterschiedliche Disziplinen in der Lage sein müssen, ihre Wissensbestände zu kontextualisieren und zu aktualisieren, um auf gesellschaftliche Nachfragen reagieren zu können. Und um das jeweils disziplinär gewachsene und geprägte Wissen auch proaktiv einbringen zu können.
@@ -26,6 +26,6 @@ Das CC wurde vom Rhine Ruhr Center for Science Communication Research in Zusamme
 
 Dieses Ziel stellt aber keinen Selbstzweck dar. Wir gehen mit dem CC vielmehr davon aus, dass Studierende aller Fächer in Deutschland für eine Gesellschaft ausgebildet werden, in der zunehmend mehr Themen, Chancen und Konflikte verwissenschaftlicht sind. Von einer frühen, grundlegenden und konzeptionell vielschichtigen Befassung mit den Entstehungsgeschichten, aber auch den Entwicklungsmöglichkeiten aktuellen wissenschaftlichen Wissens können daher Studierende aller Fächer profitieren. Dies beginnt mit dem CC nicht erst nach dem Studium, sondern ermächtigt bereits in der Bachelor-Phase dazu, sich in der eigenen Studienumgebung, an der eigenen Hochschule zu fragen, warum die Dinge hier gerade so gemacht werden, wie sie gemacht werden – und ob man sich daran beteiligen könnte, gemeinsam noch etwas anders zu machen
 
-> [!info] Title
+> [!info] Work in Progress
 > 
-> Dieses Projekt wird als 'lebend' entwickelt. Der Quellcode ist öffentlich. Mehr Infos hier: [[imprint]]
+> Dieses Projekt wird laufend ergänzt und weiterentwickelt. Für Korrekturen, Ergänzungen, Ideen und Vorschläge finden Sie hier weitere Informationen: [[über]].

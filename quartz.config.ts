@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "RRC Core Curriculum",
+    pageTitle: "Core Curriculum",
     pageTitleSuffix: "For students of all disciplines",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       
     },
-    locale: "en-US",
+    locale: "de-DE",
     baseUrl: "github.com/eisensafran/quartz",
     ignorePatterns: ["private", "templates", ".obsidian", "obsidian_templates"],
     defaultDateType: "created",
