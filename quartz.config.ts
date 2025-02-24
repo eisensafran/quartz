@@ -12,13 +12,13 @@ const config: QuartzConfig = {
     pageTitleSuffix: "For students of all disciplines",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
+    analytics: { provider: 'plausible'
       
     },
     locale: "de-DE",
     baseUrl: "github.com/eisensafran/quartz",
     ignorePatterns: ["private", "templates", ".obsidian", "obsidian_templates"],
-    defaultDateType: "created",
+    defaultDateType: "modified",
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",

@@ -1,5 +1,5 @@
 ---
-title: Wer ist die Nummer eins? – Wettbewerbe und Rankings
+title: 06-Wer ist die Nummer eins? – Wettbewerbe und Rankings
 draft: false
 tags:
   - modul1

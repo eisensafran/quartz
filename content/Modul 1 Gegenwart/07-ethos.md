@@ -1,5 +1,5 @@
 ---
-title: Was ist gut? – Ethos
+title: 07-Was ist gut? – Ethos
 draft: false
 tags:
   - modul1

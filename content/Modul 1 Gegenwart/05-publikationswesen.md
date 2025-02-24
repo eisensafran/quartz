@@ -1,5 +1,5 @@
 ---
-title: Wo kommt‘s raus? – Publikationswesen und Qualitätskontrolle
+title: 05-Wo kommt‘s raus? – Publikationswesen und Qualitätskontrolle
 draft: false
 tags:
   - modul1

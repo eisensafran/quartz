@@ -17,7 +17,7 @@ tags:
 Image: Outcome of the brainstorming with participants from BITS Pilani. (Full disclosure: the image was postprocessed in Photoshop in order to increase contrast and legibility.) Photo taken by Sarah Tober.
 ## Form/format of this seminar
 
-> „Die Universität sollte ein Ort sein, an dem autonome Individuen und Weltbürger hervorgebracht werden bzw. sich selbst hervorbringen.“ (Wilhelm von Humboldt, 1810)
+> „Die Universität sollte ein Ort sein, an dem autonome Individuen und Weltbürger hervorgebracht werden bzw. sich selbst hervorbringen.“ (Wilhelm von Humboldt, 1810)[^1]
 
 The university is envisioned as a space where autonomous individuals and global citizens are cultivated, empowering students to shape their own intellectual identities. In line with this vision, we, as lecturers, are committed to fostering an environment of interactive dialogue rather than merely delivering monologic lectures in which students are passive listeners. We strive to create a participatory learning experience that encourages active engagement, critical thinking, and mutual exchange of ideas.
 
@@ -67,3 +67,5 @@ Make sure to put all the group members’ names in the header of the first page
 - Little, Hannah. “Stereotypes, Gender, and Humor in Representations of Coders in Silicon Valley. Review of TV Series Silicon Valley (HBO 2014-2019).” Science as Culture, vol. 32, no. 2, 2023, pp. 315–21, [https://doi.org/10.1080/09505431.2023.2189094](https://doi.org/10.1080/09505431.2023.2189094)
 - Kirby, David A., 'The Changing Popular Images of Science', in Kathleen Hall Jamieson, Dan M. Kahan, and Dietram A. Scheufele (eds), The Oxford Handbook of the Science of Science Communication, Oxford Library of Psychology (2017; online edn, Oxford Academic, 6 June 2017), [https://doi.org/10.1093/oxfordhb/9780190497620.013.32](https://doi.org/10.1093/oxfordhb/9780190497620.013.32)  (⚠️ not Open Access)
 - Medvecky, Fabien, and Joan Leach. “What Are the Guiding Ethical Principles of Science Communication?” An Ethics of Science Communication. Switzerland: Springer International Publishing AG, 2019. 83–92. 
+
+[^1]: https://de.wikipedia.org/wiki/Humboldtsches_Bildungsideal

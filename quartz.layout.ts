@@ -7,6 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
     Component.TagList(),
+    Component.Description(),
   ],
   footer: Component.Footer({
     links: {
@@ -30,12 +31,13 @@ export const defaultContentPageLayout: PageLayout = {
     
     Component.MobileOnly(Component.Spacer()),
     
-    Component.Search(),
+    
     
     Component.Explorer(),
   ],
   right: [
-    Component.Description(),
+    Component.Search(),
+
     Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
@@ -51,7 +53,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer(),
+    Component.Explorer({folderDefaultState: "collapsed"}),
   ],
   right: [],
 }

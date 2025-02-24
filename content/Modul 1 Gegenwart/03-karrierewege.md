@@ -1,5 +1,5 @@
 ---
-title: Wo geht‘s lang? – Karrierewege
+title: 03-Wo geht‘s lang? – Karrierewege
 draft: false
 tags:
   - modul1
@@ -16,7 +16,7 @@ tags:
 
 ## Literaturvorschläge
 
-- Bahr, A., Eichborn, K. & Kubon, S. (2022). _#IchBinHanna: Prekäre Wissenschaft in Deutschland_ (Originalausgabe). Suhrkamp Verlag.
+- Bahr, A., Eichborn, K. & Kubon, S. (2022). _# IchBinHanna: Prekäre Wissenschaft in Deutschland_ (Originalausgabe). Suhrkamp Verlag.
 - Esselborn-Krumbiegel, H. (2024). _Die Doktorarbeit: 180 Seiten Rückenwind_. Brill | Schöningh.
 - Weber, M. (2011). _Wissenschaft als Beruf_ (11. Aufl.). Duncker Humblot GmbH.
 
