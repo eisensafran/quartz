@@ -6,7 +6,7 @@ tags:
 ---
 ![[RRC-CC-Teaser-2.png]]
 
-Das Core Curriculum wird von Teilprojekt 3: Redesigning Reflexivity in Science Communication des [Rhine Ruhr Center for Science Communication Research](https://rhine-ruhr-research.de/) entwickelt. Projekt.
+Das Core Curriculum wird von Teilprojekt 3: Redesigning Reflexivity in Science Communication des [Rhine Ruhr Center for Science Communication Research](https://rhine-ruhr-research.de/) entwickelt.
 
 ```gdscript
 var inventory = {
