@@ -6,16 +6,16 @@
     height: 90vh;
 }
 
-#explorer-content {
+.explorer-content {
     list-style: none;
-    overflow: hidden;
+
     overflow-y: auto;
     max-height: 0px;
     transition:
       max-height 0.35s ease,
       visibility 0s linear 0.35s;
     margin-top: 0.5rem;
-    visibility: hidden;
+
   
     &.collapsed {
       max-height: 100%;
@@ -71,7 +71,7 @@ blockquote {
 }
 
 .callout {
-  font-family: var(--bodyFont)
+  
 }
 
 .search {
