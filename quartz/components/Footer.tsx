@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-           © {year} <a href="https://rhine-ruhr-research.de" target="_blank">Rhine Ruhr Center for Science Communication Research</a>
+           © {year} <a href="https://andi-siess.de" target="_blank">Website</a>
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (

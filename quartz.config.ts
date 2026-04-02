@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "CG Handbook",
-    pageTitleSuffix: "For students of all disciplines",
+    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: { provider: 'plausible'
@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "de-DE",
     baseUrl: "github.com/eisensafran/quartz",
-    ignorePatterns: ["private", "templates", ".obsidian", "obsidian_templates"],
+    ignorePatterns: ["private", "templates", ".obsidian", "obsidian_templates", "private Modul 1 Gegenwart", "private Modul 2 Representation and Performativity"],
     defaultDateType: "modified",
     generateSocialImages: false,
     theme: {
