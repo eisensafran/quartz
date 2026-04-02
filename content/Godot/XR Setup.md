@@ -42,3 +42,7 @@ Angeschlossene Android Devices auflisten
 ```
 adb devices
 ```
+
+> [!info] Wenn Build ohne Warnungen failed
+> Zunächst per Project -> Export als normales Android `*.apk` exportieren. Dann sind die Fehlermeldungen in der Konsole etwas ergiebiger. (Beispiel: der Tutorial-Build failed, weil `Import ETC2 ASTC` nicht unter Rendering -> Textures (VRAM Compression) ausgewählt wurde.)
+
