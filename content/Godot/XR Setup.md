@@ -9,7 +9,7 @@ Main
 –– XRCamera3D
 ```
 
-## OS X Spezifika
+## OS X Spezifika Meta Quest 3
 
 Anscheinend keine Live-Preview möglich. Deploy scheint aber zu gehen. 
 
@@ -27,7 +27,7 @@ Benötigt:
 > [!info] Godot Doku ist hier etwas schwammig formuliert
 > Die Packages lassen sich bei den Reitern installieren. Vorsicht: Checkbox bei `Show package details` muss gesetzt sein. Nur dann lässt sich bei den Build Tools die Version 35.0.1 installieren.  
 
-![[Android-Studio_packages_1.jpg]]
+![[Android-Studio_packages_1.webp]]
 
 
 https://docs.godotengine.org/en/stable/tutorials/xr/deploying_to_android.html
