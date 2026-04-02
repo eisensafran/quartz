@@ -1,3 +1,11 @@
+---
+title: GD Script Hints
+draft: false
+tags:
+  - gdscript
+  - godot
+---
+
 ## Dictionary
 ```gdscript
 var inventory = {

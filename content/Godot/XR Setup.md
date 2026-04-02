@@ -1,3 +1,10 @@
+---
+title: XR Setup
+draft: false
+tags:
+  - gdscript
+  - godot
+---
 1. Compatibility Renderer
 2. Project Settings -> XR -> enable
 3. Project Settings -> XR -> Shaders enable
@@ -34,12 +41,12 @@ https://docs.godotengine.org/en/stable/tutorials/xr/deploying_to_android.html
 
 ### Troubleshooting
 OpenJDK version herausfinden
-```
+```bash
 java --version
 ```
 
 Angeschlossene Android Devices auflisten
-```
+```bash
 adb devices
 ```
 
