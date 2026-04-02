@@ -51,9 +51,11 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
     Component.Explorer({folderDefaultState: "collapsed"}),
   ],
-  right: [],
+  right: [
+    Component.Search(),
+    Component.Darkmode(),
+
+  ],
 }
