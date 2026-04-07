@@ -31,7 +31,7 @@ Benötigt:
 	- Android SDK Command-line Tools (latest)
 
 
-> [!info] Die Godot Doku ist hier etwas schwammig formuliert
+> [!info] Godot Doku ist hier etwas schwammig formuliert
 > Die Packages lassen sich bei den Reitern installieren. Vorsicht: Checkbox bei `Show package details` muss gesetzt sein. Nur dann lässt sich bei den Build Tools die Version 35.0.1 installieren.  
 
 ![[Android-Studio_packages_1.webp]]
