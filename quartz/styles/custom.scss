@@ -1,3 +1,19 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+.graph>#global-graph-outer>#global-graph-container  {
+    width: 70vw;
+    height: 90vh;
+}
+
+
+
+blockquote {
+  font-family: var(--headerFont)
+}
+
+
+
+.search {
+  max-width: unset;
+}
