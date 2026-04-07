@@ -32,9 +32,10 @@ GDscript kann sich das aber auch automatisch erschließen ("inferred") mit:
 var cell_size := Vector2(80, 90)
 ```
 
-## Init und Process
+## Was hat der Unterstrich (z.B. `_process()`) zu bedeuten?
+**Bei Funktionen:** Notice how `_process()`, like `_init()`, starts with a leading underscore. By convention, Godot's virtual functions, that is to say, built-in functions you can override to communicate with the engine, start with an underscore.
 
-Notice how `_process()`, like `_init()`, starts with a leading underscore. By convention, Godot's virtual functions, that is to say, built-in functions you can override to communicate with the engine, start with an underscore.
+**Bei Variablen oder Parametern:** In GDScript, a leading `_` on a variable or parameter name is commonly used to mark it as unused, which helps avoid “unused variable/parameter” warnings
 
 ## `@onready` vs. `func _ready`
 
@@ -50,6 +51,19 @@ lässt sich dieser Code auch mit
 @onready var my_label = get_node("MyLabel")
 ```
 ausdrücken. 
+
+## Type notation
+*Was macht dieses `-> void` am Ende einer Funktionsdefinition?*
+
+Beispiel:
+```gdscript
+func _on_button_pressed() -> void:
+```
+
+`-> void` ist die type notation in GDscript. Diese Angabe sagt aus, dass die Funktion also nichts zurück liefern sollte (d.h., die Funktion darf kein `return` beinhalten). Die Angabe von `-> void` ist grundsätzlich optional, aber gute Praxis
+
+> [!warning] Vorsicht!
+> `-> void` hat nichts mit `pass` zu tun. 
 
 ## Quarternions 
 
