@@ -1,12 +1,10 @@
 ---
-title: CG Handbook
+title: Wissen über Wissenschaft
 draft: false
 tags:
   - Projekt
 ---
-
-# Materialsammlung
-
+## Eine Loseblattsammlung
 
 
 > [!info] Work in Progress
