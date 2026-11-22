@@ -1,6 +1,6 @@
 ---
 title: GD Script Hints
-draft: false
+draft: true
 tags:
   - gdscript
   - godot

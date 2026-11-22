@@ -1,6 +1,6 @@
 ---
 title: XR Setup
-draft: false
+draft: true
 tags:
   - gdscript
   - godot

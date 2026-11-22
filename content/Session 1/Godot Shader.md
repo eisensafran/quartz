@@ -1,3 +1,11 @@
+---
+title: GD Script Hints
+draft: true
+tags:
+  - gdscript
+  - godot
+---
+
 Einfacher Nebel Shader
 
 Vorher
