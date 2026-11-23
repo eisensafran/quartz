@@ -1,19 +1,243 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
-.graph>#global-graph-outer>#global-graph-container  {
-    width: 70vw;
-    height: 90vh;
+:root {
+  --accent-gray: #adadad;
+  --accent-aqua: #b6ecec;
+  --accent-light: #e8eae8;
+  // Preserve the brand red for accents; deepen small link text for contrast.
+  --link-color: color-mix(in srgb, var(--secondary) 85%, #000);
 }
 
-
-
-blockquote {
-  font-family: var(--headerFont)
+:root[saved-theme="dark"] {
+  --link-color: color-mix(in srgb, var(--secondary) 75%, #fff);
 }
 
+html {
+  width: 100%;
+  text-size-adjust: 100%;
+}
 
+button,
+input,
+select,
+textarea {
+  font-family: var(--bodyFont);
+}
+
+a,
+.folder-container div > a,
+.folder-container div > button span,
+.search .search-container .search-space .search-layout .result-card > ul > li > p {
+  color: var(--link-color);
+}
+
+a:hover,
+.folder-container div > a:hover,
+.folder-container div > button:hover span {
+  color: var(--tertiary);
+}
+
+.page-title a {
+  color: var(--secondary);
+}
+
+ul.toc-content.overflow > li > a {
+  color: var(--darkgray);
+  opacity: 1;
+
+  &.in-view {
+    color: var(--link-color);
+    opacity: 1;
+  }
+}
+
+footer {
+  opacity: 1;
+}
+
+pre,
+pre > code {
+  overflow-y: hidden;
+}
+
+pre > code > [data-line]::before {
+  color: var(--gray);
+}
+
+::selection {
+  background: var(--accent-aqua);
+  color: #161618;
+}
+
+:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 4px;
+}
+
+.search > .search-container > .search-space > input:focus-visible {
+  outline: 2px solid var(--secondary);
+}
+
+// Only article headings receive the extra space, leaving navigation compact.
+.page article {
+  overflow-wrap: anywhere;
+
+  :is(h1, h2, h3, h4, h5, h6) {
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+    scroll-margin-top: 7rem;
+    margin-top: 2.5rem;
+  }
+
+  :is(h1, h2) {
+    margin-top: 3rem;
+  }
+
+  :is(img, video) {
+    height: auto;
+  }
+
+  :is(iframe, svg) {
+    max-width: 100%;
+  }
+}
+
+.article-title,
+.breadcrumb-container {
+  overflow-wrap: anywhere;
+}
+
+// Keep all callout types within the palette, with theme-aware text and fills.
+.callout[data-callout] {
+  --callout-accent: var(--accent-gray);
+  --color: var(--dark);
+  --border: var(--callout-accent);
+  --bg: color-mix(in srgb, var(--callout-accent) 18%, var(--light));
+  border-left-width: 3px;
+
+  &[data-callout="abstract"],
+  &[data-callout="info"],
+  &[data-callout="todo"],
+  &[data-callout="tip"],
+  &[data-callout="success"] {
+    --callout-accent: var(--accent-aqua);
+  }
+
+  &[data-callout="example"],
+  &[data-callout="quote"] {
+    --callout-accent: var(--accent-light);
+  }
+
+  &[data-callout="warning"],
+  &[data-callout="failure"],
+  &[data-callout="danger"],
+  &[data-callout="bug"] {
+    --callout-accent: var(--secondary);
+  }
+}
 
 .search {
-  max-width: unset;
+  min-width: 0;
+  max-width: none;
+
+  > .search-button > p {
+    color: var(--darkgray);
+  }
+
+  > .search-container {
+    height: 100dvh;
+  }
+}
+
+.darkmode {
+  width: 44px;
+  height: 44px;
+
+  svg {
+    left: 12px;
+  }
+}
+
+.graph > .global-graph-outer > .global-graph-container {
+  width: min(70rem, calc(100vw - 2rem));
+  height: 90dvh;
+}
+
+// Flexible grid tracks contain long code, tables, URLs, and embedded media.
+.page > #quartz-body {
+  grid-template-columns: #{$sidePanelWidth} minmax(0, 1fr) #{$sidePanelWidth};
+
+  > .center,
+  > footer,
+  .sidebar,
+  .flex-component > div {
+    min-width: 0;
+  }
+
+  > .center,
+  > footer {
+    width: 100%;
+  }
+
+  @media all and ($tablet) {
+    grid-template-columns: #{$sidePanelWidth} minmax(0, 1fr);
+  }
+
+  @media all and not ($desktop) {
+    .sidebar.right {
+      flex-wrap: wrap;
+
+      > * {
+        flex: 1 1 15rem;
+        min-width: 0;
+      }
+    }
+  }
+
+  @media all and ($mobile) {
+    grid-template-columns: minmax(0, 1fr);
+
+    .sidebar.left {
+      gap: 0.5rem;
+
+      .page-title {
+        flex: 1 1 auto;
+        min-width: 0;
+        font-size: 1.25rem;
+        line-height: 1.25;
+      }
+
+      .spacer {
+        display: none;
+      }
+
+      > .flex-component {
+        flex: 0 0 auto;
+      }
+    }
+
+    .search > .search-button {
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      padding: 0;
+
+      > p {
+        display: none;
+      }
+    }
+
+    .explorer .mobile-explorer {
+      min-height: 44px;
+    }
+
+    .explorer .explorer-content {
+      width: calc(100vw - 2rem);
+    }
+
+    li.section-li > .section {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
 }

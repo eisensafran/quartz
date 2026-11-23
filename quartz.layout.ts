@@ -1,47 +1,41 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import Flex from "./quartz/components/Flex"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [
-    Component.TagList(),
-    Component.Description(),
-  ],
+  afterBody: [Component.TagList(), Component.Description()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/eisensafran/quartz",
-
     },
   }),
 }
 
+// Keep search and the theme switch in the top navigation at every screen size.
+const navigationTools = Flex({
+  components: [
+    { Component: Component.Search(), grow: true },
+    { Component: Component.Darkmode(), shrink: false },
+  ],
+  gap: "0.5rem",
+})
+
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [
-    
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    
-  ],
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
-    
     Component.MobileOnly(Component.Spacer()),
-    
-    
-    
+    navigationTools,
     Component.Explorer(),
   ],
   right: [
-    Component.Search(),
-
     Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.Darkmode(),
   ],
 }
 
@@ -51,11 +45,8 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Explorer({folderDefaultState: "collapsed"}),
+    navigationTools,
+    Component.Explorer({ folderDefaultState: "collapsed" }),
   ],
-  right: [
-    Component.Search(),
-    Component.Darkmode(),
-
-  ],
+  right: [],
 }
