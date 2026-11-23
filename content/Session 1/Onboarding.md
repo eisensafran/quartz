@@ -1,5 +1,5 @@
 ---
-title: Session 1 Game
+title: Onboarding
 draft: false
 tags:
   - cs
@@ -16,7 +16,7 @@ In case there is an error:
 dotnet restore
 ```
 Downloads and prepares the external dependencies (libraries) that your C# project needs to compile and run.
-**However, you normally shouldn't need to execute** `dotnet restore` **manually when using Visual Studio.** Visual Studio is designed to restore missing dependencies automatically.
+**However, you normally shouldn't need to execute** `dotnet restore` **manually when using Visual Studio (see below).** Visual Studio is designed to restore missing dependencies automatically.
 
 When you execute `dotnet restore` .NET performs several operations:
 1. Reads the `.csproj` file to identify dependencies.
@@ -38,7 +38,7 @@ NfcCli/
 ```
 
 ## Using Visual Studio *Code*
-Visual Studio Code is lightweight and quite capable for simple programming tasks. 
+Visual Studio Code is lightweight and quite capable for simple programming tasks. You need to install the .NET runtime before being able to execute C# code. For convenience I also recommend installing the C# Dev Kit via the plugin manager.
 
 ## Using Visual Studio
 When pressing `F5` or you click the green arrow in the menu, Visual Studio triggers the following pipeline:
