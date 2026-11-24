@@ -34,32 +34,8 @@ NfcCli/
 ├── NfcCli.csproj
 ├── Program.cs
 ├── MyClass1.cs
-├── 📄 README.md
-├── 📁 bin
-├── 📁 obj
-└── 📁 .vs
+└── README.md
 ```
-
-#### What is the purpose of  `bin`, `.vs` and `obj`?
-These folders are auto-generated when building/compiling the code. Typically you will not need to change the contents of these folders.
-
-> [!warning]
-> **Version control (git):** Make sure `bin/`, `obj/`, and `.vs/` are listed in your `.gitignore` file so you don't bloat your repository or cause merge conflicts with other developers' local settings.
-
-`bin` = "binary" -> final output 
-Compiled `.dll` / `.exe` files, `.pdb` debug symbols, config files, and copied dependencies—organized by configuration (`Debug` / `Release`) and target framework (e.g., `net8.0`).
-=> Holds the runnable application or library that you actually execute or deploy.
-
-`obj` = "object" -> Intermediate files
-Temporary build artifacts, NuGet restore data (`project.assets.json`), and auto-generated code (like `AssemblyInfo.cs` or XAML/Razor generated files).
-=> Speeds up **incremental builds** so the compiler only rebuilds files that changed instead of starting from scratch.
-
-`.vs` = "Visual Studio" -> *hidden* folder
-User-specific settings, open tabs, breakpoints, window layouts, and IntelliSense/search caches
-
-> [!info]
->**Fixing weird build errors:** If Visual Studio shows phantom errors or stale NuGet references, closing the IDE and manually deleting `bin` and `obj` (then rebuilding) often resolves them.
-
 
 ## Using Visual Studio *Code*
 Visual Studio Code is lightweight and quite capable for simple programming tasks. You need to install the .NET runtime before being able to execute C# code. For convenience I also recommend installing the C# Dev Kit via the plugin manager.
